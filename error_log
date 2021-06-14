@@ -1,0 +1,12 @@
+[14-Nov-2019 02:15:55 UTC] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///usr/local/bin/composer/vendor/symfony/console/Application.php on line 952
+[14-Nov-2019 02:42:59 UTC] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///usr/local/bin/composer/vendor/symfony/console/Application.php on line 952
+[14-Nov-2019 02:46:22 UTC] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///usr/local/bin/composer/vendor/symfony/console/Application.php on line 952
+[14-Nov-2019 02:47:27 UTC] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///usr/local/bin/composer/vendor/symfony/console/Application.php on line 952
+[14-Nov-2019 02:47:53 UTC] PHP Warning:  proc_open(): fork failed - Cannot allocate memory in phar:///usr/local/bin/composer/vendor/symfony/console/Application.php on line 952
+[16-Nov-2019 03:44:24 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/admin/public_html/emer/App/Modules/Presupuesto/Database/Migrations/2019_11_11_230105_create_presupuesto_documentaria.php): failed to open stream: No such file or directory in /home/admin/public_html/emer/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 /home/admin/public_html/emer/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/admin/pub...', 109, Array)
+#1 /home/admin/public_html/emer/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require_once()
+#2 /home/admin/public_html/emer/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(477): Illuminate\Filesystem\Filesystem->requireOnce('/home/admin/pub...')
+#3 /home/admin/public_html/emer/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(103): Illuminate\Database\Migrations\Migrator->requireFiles(Array in /home/admin/public_html/emer/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109
+[16-Nov-2019 03:44:24 UTC] PHP Fatal error:  Illuminate\Filesystem\Filesystem::requireOnce(): Failed opening required '/home/admin/public_html/emer/App/Modules/Presupuesto/Database/Migrations/2019_11_11_230105_create_presupuesto_documentaria.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/admin/public_html/emer/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109
